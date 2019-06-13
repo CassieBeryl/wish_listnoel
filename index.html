@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Ma wish list</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+  <body>
+    <header>
+      <img src="images/pere noel.jpg" alt="Père Noel" title="Père Noel"/>
+    </header>
+    <section id="section1">
+      <h1>Ma lettre au Père Noël</h1>
+      <p class="letter"> Cher Père Noël je t'envoie ma liste de souhaits car je voudrais le plus noël du monde pour mon frère et moi. A très bientôt cher papa Noël.</p>
+    </section>
+    <section id="section2">
+      <div id="container">
+        <h1>Ma liste de souhaits</h1>
+          <div id="mapreference">
+            <form method="post" action="wish-list.js">
+              <p>
+               <label for="monnom">Mon nom </label><br/><input type="text" name="Mon nom" id="monnom" required />
+               <br/>
+               <br/>
+               <label for="monprenom">Mon prénom </label><br/><input type="text" name="Mon prénom" id="monprenom" required />
+               <br/>
+               <br/>
+               <label for="email">E-mail </label><br/><input type="email" name="email" id="email" required />
+               <br/>
+               <br/>
+               <label for="montelephone">Téléphone </label><br/><input type="tel" name="telephone" id="montelephone" />
+               <br/>
+               <br/>
+               <label for="mescadeaux">Mes cadeaux </label><br/><input type="text" name="Mes cadeaux" id="mescadeaux" />
+                <br/>
+                </p>
+                <p>
+                  <label for="mespreferences">Mes préférences </label><br/>
+                    <select name="Mes préférences" id="mespreferences">
+                             <option value="Jouet">Jouet</option>
+                             <option value="Livre">Livre</option>
+                             <option value="Sport">Sport</option>
+                             <option value="Informatique">Informatique</option>
+                             <option value="Vêtement">Vêtement</option>
+                             <option value="Sortie">Sortie</option>
+                             <option value="Surprise">Surprise</option>
+                             <option value="?">?</option>
+                    </select>
+                  </p>
+                <br/>
+                <p>
+                  <label for="lettre">Que veux-tu dire au Père Noël ?</label><br/>
+                  <textarea name="lettre" id="lettre"></textarea>
+                </p>
+                <br/>
+                <input type="button" value="Envoyer" />
+            </form>
+          </div>
+        </section>
+        <footer>
+        </footer>
+      </div>
+    <script src="whish-list.js"></script>
+  </body>
+</html>

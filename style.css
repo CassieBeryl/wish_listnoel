@@ -1,0 +1,73 @@
+html {
+margin:0;
+padding:0;
+}
+
+body {
+background-image: url("images/fond-ecranmax.jpg");
+font-family:"Verdana";
+font-size:24px;
+color:white;
+text-align:center;
+width:100%;
+min-height:80vh;
+margin:0;
+}
+
+header {
+background-color:#000080;
+}
+
+#container {
+width:100%;
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+justify-content:space-around;
+align-items:center;
+}
+
+p.letter {
+  width:50%;
+  text-align:center;
+  margin:auto;
+}
+
+#mapreference {
+font-family:"Verdana";
+font-size:30px;
+width:100%;
+}
+
+:required {
+background-color: red;
+}
+
+#mespreferences {
+  font-family:"Verdana";
+  font-weight:bold;
+  font-size:1.1em;
+
+}
+
+input {
+  font-family:"Verdana";
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+ textarea {
+  font-family:"Verdana";
+  font-size:1.1em;
+  width:20%;
+  min-height:10vh;
+ }
+
+
+footer {
+width:100%;
+margin-left:0;
+min-height:5vh;
+margin-top:0;
+margin-bottom:0;
+}
